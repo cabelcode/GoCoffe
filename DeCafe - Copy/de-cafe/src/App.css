@@ -1,0 +1,36 @@
+:root{
+  --yellow: #FFC300;
+  --white: #fff;
+  --black: #000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px 15px;
+  border: 0px;
+  border-radius: 20px;
+
+  
+  
+}
+
+.hero{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--yellow);
+  color: var(--white);
+}
+
+.hero h1{
+  margin: 20px;
+}
